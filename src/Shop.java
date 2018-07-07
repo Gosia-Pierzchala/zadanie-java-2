@@ -1,16 +1,8 @@
 public class Shop {
     public static void main(String[] args) {
-        Table table1 = new Table();
-        table1.name = "S1";
-        table1.colour = "brown";
-        table1.high = 97;
-        table1.price = 1000;
+        Table table1 = new Table("S1", "brown", 97, 1000);
 
-        Table table2 = new Table();
-        table2.name = "S2";
-        table2.colour = "black";
-        table2.high = 102;
-        table2.price = 899;
+        Table table2 = new Table("S2", "black", 102, 899);
 
         System.out.println("Informacje o stole 1.");
         System.out.println("Name: " + table1.name);
